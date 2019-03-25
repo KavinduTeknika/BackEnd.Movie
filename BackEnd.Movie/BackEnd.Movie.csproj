@@ -9,7 +9,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackEnd.Movie.AzureBlob\BackEnd.Movie.AzureBlob.csproj" />
+    <ProjectReference Include="..\BackEnd.Movie.Contracts\BackEnd.Movie.Contracts.csproj" />
+    <ProjectReference Include="..\BackEnd.Movie.DataReadRepository\BackEnd.Movie.DataReadRepository.csproj" />
+    <ProjectReference Include="..\BackEnd.Movie.DataWriteRepository\BackEnd.Movie.DataWriteRepository.csproj" />
   </ItemGroup>
 
 </Project>

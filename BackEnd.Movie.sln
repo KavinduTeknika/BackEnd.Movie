@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Movie", "BackEnd.Movie\BackEnd.Movie.csproj", "{2F63FFC1-F012-420E-95D5-85AADDA81C83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Movie", "BackEnd.Movie\BackEnd.Movie.csproj", "{2F63FFC1-F012-420E-95D5-85AADDA81C83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Movie.Contracts", "BackEnd.Movie.Contracts\BackEnd.Movie.Contracts.csproj", "{66A6DC77-BC5F-497C-94F4-DC6051C605BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Movie.AzureBlob", "BackEnd.Movie.AzureBlob\BackEnd.Movie.AzureBlob.csproj", "{70EB7FB2-55B8-4AC4-BD97-1B18242BD6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Movie.DataWriteRepository", "BackEnd.Movie.DataWriteRepository\BackEnd.Movie.DataWriteRepository.csproj", "{B6D2C3C5-A82E-4258-A438-5C06DA31AD55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd.Movie.DataReadRepository", "BackEnd.Movie.DataReadRepository\BackEnd.Movie.DataReadRepository.csproj", "{F57EBE2F-EB88-43AF-AC73-B9C34C99EA52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Movie.DataReadRepository.Test", "BackEnd.Movie.DataReadRepository.Test\BackEnd.Movie.DataReadRepository.Test.csproj", "{02836571-D52B-445E-BB1F-F2D34D3E446B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Movie.DataWriteRepository.Test", "BackEnd.Movie.DataWriteRepository.Test\BackEnd.Movie.DataWriteRepository.Test.csproj", "{C6D87EBB-57B7-453F-AA5E-185B8FCA9BBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Movie.Test", "BackEnd.Movie.Test\BackEnd.Movie.Test.csproj", "{C0D2835F-0037-43FF-A829-D0E5291A5929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +29,34 @@ Global
 		{2F63FFC1-F012-420E-95D5-85AADDA81C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F63FFC1-F012-420E-95D5-85AADDA81C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F63FFC1-F012-420E-95D5-85AADDA81C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A6DC77-BC5F-497C-94F4-DC6051C605BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A6DC77-BC5F-497C-94F4-DC6051C605BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A6DC77-BC5F-497C-94F4-DC6051C605BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A6DC77-BC5F-497C-94F4-DC6051C605BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EB7FB2-55B8-4AC4-BD97-1B18242BD6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EB7FB2-55B8-4AC4-BD97-1B18242BD6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EB7FB2-55B8-4AC4-BD97-1B18242BD6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EB7FB2-55B8-4AC4-BD97-1B18242BD6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D2C3C5-A82E-4258-A438-5C06DA31AD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D2C3C5-A82E-4258-A438-5C06DA31AD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D2C3C5-A82E-4258-A438-5C06DA31AD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D2C3C5-A82E-4258-A438-5C06DA31AD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57EBE2F-EB88-43AF-AC73-B9C34C99EA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57EBE2F-EB88-43AF-AC73-B9C34C99EA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57EBE2F-EB88-43AF-AC73-B9C34C99EA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57EBE2F-EB88-43AF-AC73-B9C34C99EA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02836571-D52B-445E-BB1F-F2D34D3E446B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02836571-D52B-445E-BB1F-F2D34D3E446B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02836571-D52B-445E-BB1F-F2D34D3E446B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02836571-D52B-445E-BB1F-F2D34D3E446B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D87EBB-57B7-453F-AA5E-185B8FCA9BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D87EBB-57B7-453F-AA5E-185B8FCA9BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D87EBB-57B7-453F-AA5E-185B8FCA9BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D87EBB-57B7-453F-AA5E-185B8FCA9BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D2835F-0037-43FF-A829-D0E5291A5929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D2835F-0037-43FF-A829-D0E5291A5929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D2835F-0037-43FF-A829-D0E5291A5929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D2835F-0037-43FF-A829-D0E5291A5929}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
