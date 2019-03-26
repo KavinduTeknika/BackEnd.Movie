@@ -1,0 +1,53 @@
+{
+    [
+        {
+            "MovieTitle": "Star Wars: Episode IV - A New Hope",
+            "ReleasedYear": "1977",
+            "MovieReferenceId": "cw0076759",
+            "Price": "120.1",
+            "ReleasedDate": "19 May 1977"
+        },
+        {
+            "MovieTitle": "Star Wars: Episode V - The Empire Strikes Back",
+            "ReleasedYear": "1980",
+            "MovieReferenceId": "cw0080684",
+            "Price": "100.1",
+            "ReleasedDate": "19 May 1980"
+        },
+        {
+            "MovieTitle": "Star Wars: Episode VI - Return of the Jedi",
+            "ReleasedYear": "1983",
+            "MovieReferenceId": "cw0086190",
+            "Price": "100.1",
+            "ReleasedDate": "19 May 1983"		
+		},
+        {
+            "MovieTitle": "Star Wars: The Force Awakens",
+            "ReleasedYear": "2015",
+            "MovieReferenceId": "cw2488496",
+            "Price": "100.1",
+            "ReleasedDate": "19 May 2005"
+        },
+        {
+            "MovieTitle": "Star Wars: Episode I - The Phantom Menace",
+            "ReleasedYear": "1999",
+            "MovieReferenceId": "cw0120915",
+            "Price": "100.1",
+            "ReleasedDate": "19 May 2005"
+        },
+        {
+            "MovieTitle": "Star Wars: Episode III - Revenge of the Sith",
+            "ReleasedYear": "2005",
+            "MovieReferenceId": "cw0121766",
+            "Price": "100.1",
+            "ReleasedDate": "19 May 2005"
+        },
+        {
+            "MovieTitle": "Star Wars: Episode II - Attack of the Clones",
+            "ReleasedYear": "2002",
+            "MovieReferenceId": "cw0121765",
+            "Price": "100.1",
+            "ReleasedDate": "19 May 2002"
+        }
+    ]
+}
