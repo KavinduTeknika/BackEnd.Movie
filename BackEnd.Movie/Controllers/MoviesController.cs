@@ -47,7 +47,7 @@ namespace BackEnd.Movie.Controllers
                     return NotFound($"No movies were found.");
                 };
                 //Select movies were released within from/to released year of the movies.
-                var result = movies.Where(x => x.ReleasedYear >= (request?.FromReleasedYear ?? 0) && x.ReleasedYear <= (request?.ToReleasedYear ?? DateTime.Now.Year)).ToList();
+                var result = movies.Where(x => x.ReleasedYear >= (request?.ReleasedFromYear ?? 0) && x.ReleasedYear <= (request?.ReleasedToYear ?? DateTime.Now.Year)).ToList();
                 return Ok(result);
             }
             catch (Exception exception)

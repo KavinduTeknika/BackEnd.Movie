@@ -45,8 +45,8 @@ namespace BackEnd.Movie.Test
                 new Mock<ILogger<MoviesController>>().Object);
             var getMovieRequest = new GetMoviesRequest
             {
-                FromReleasedYear = null,
-                ToReleasedYear = null
+                ReleasedFromYear = null,
+                ReleasedToYear = null
             };
 
             //Act
@@ -88,8 +88,8 @@ namespace BackEnd.Movie.Test
 
             var getMovieRequest = new GetMoviesRequest
             {
-                FromReleasedYear = 2005,
-                ToReleasedYear = null
+                ReleasedFromYear = 2005,
+                ReleasedToYear = null
             };
 
             //Act
@@ -132,8 +132,8 @@ namespace BackEnd.Movie.Test
 
             var getMovieRequest = new GetMoviesRequest
             {
-                FromReleasedYear = null,
-                ToReleasedYear = 2018
+                ReleasedFromYear = null,
+                ReleasedToYear = 2018
             };
 
             //Act
@@ -175,8 +175,8 @@ namespace BackEnd.Movie.Test
 
             var getMovieRequest = new GetMoviesRequest
             {
-                FromReleasedYear = 2000,
-                ToReleasedYear = 2019
+                ReleasedFromYear = 2000,
+                ReleasedToYear = 2019
             };
 
             //Act

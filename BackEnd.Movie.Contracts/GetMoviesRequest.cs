@@ -9,7 +9,7 @@ namespace BackEnd.Movie.Contracts
     /// </summary>
     public class GetMoviesRequest
     {
-        public int? FromReleasedYear { get; set; }
-        public int? ToReleasedYear { get; set; }       
+        public int? ReleasedFromYear { get; set; }
+        public int? ReleasedToYear { get; set; }       
     }
 }
